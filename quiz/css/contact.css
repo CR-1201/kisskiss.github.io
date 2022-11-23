@@ -1,0 +1,53 @@
+.aixin {
+    position: absolute;
+    transform: translate(0px,0px) scale(1);
+    transition: transform 0.7s ease-out 0s;
+}
+
+.aixin:before,.aixin:after {
+    position: absolute;
+    left: 10px;
+    height: 16px;
+    width: 10px;
+    content: "";
+    background-color: inherit;
+    border-radius: 5px 5px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+}
+
+.aixin:after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+}
+
+.back{
+    width: 10vw;
+    position: absolute;
+    top: 80vh;
+    text-align: center;
+}
+
+.back-button{
+    width: 10vw;
+    height: 4vw;
+    border: 3px solid cornflowerblue;
+    background-color: lavender;
+    font-size: 120%;
+    color: cornflowerblue;
+    font-weight: bold;
+    border-radius: 2vw;
+    transition-duration: 500ms;
+}
+
+a{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+.back .back-button:hover{
+    background-color: cornflowerblue;
+}
+.back .back-button:hover > a{
+    color: lavender;
+}

@@ -1,0 +1,81 @@
+.main-box{
+    width: 100vw;
+    height: 300vh;
+    left: 0;
+    top: 0;
+    background-image: url("../../../src/bg/ice.png");
+    background-size: cover;
+    text-align: center;
+    color: black;
+}
+
+.top-nav a{
+    color: black;
+}
+.top-nav button:hover{
+    background-color: whitesmoke;
+}
+.top-nav button:hover > a{
+    color: blue;
+}
+.main-title{
+    text-align: center;
+    padding-top: 20vh;
+    padding-bottom: 50vh;
+    visibility: hidden;
+    transition-duration: 800ms;
+    opacity: 0;
+    color: black;
+}
+.show{
+    visibility: visible;
+    padding-top: 25vh;
+    padding-bottom: 45vh;
+    opacity: 1;
+}
+.main-title h1{
+    font-size: 400%;
+    line-height: 200%;
+}
+
+.on-this-page{
+    background-color: white;
+}
+.on-this-page a{
+    color: blue;
+}
+
+.content{
+    padding: 0 10vw;
+    display: flex;
+}
+.left{
+    width: min-content;
+    margin: 0;
+}
+.right{
+    width: 60vw;
+    margin: 0;
+}
+.mid-img{
+    width: 20vw;
+    height: 22vh;
+    padding: 1vh 0;
+    text-align: center;
+}
+.left img{
+    width: 20vh;
+    border-radius: 2vh;
+    box-shadow: 0 5px 5px gray, 5px 0 5px gray;
+}
+.info{
+    height: 18vh;
+    padding: 1vh 2vw;
+    border-radius: 2vh;
+    box-shadow: 0 5px 5px gray, 5px 0 5px gray;
+    text-align: left;
+}
+.name{
+    padding: 1vh 0;
+    height: 22vh;
+}

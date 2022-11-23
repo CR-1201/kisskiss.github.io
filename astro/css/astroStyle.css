@@ -1,0 +1,262 @@
+.top-nav{
+    position: fixed;
+}
+
+.main-box{
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+}
+
+
+.main-box1{
+    background-image: url("../../../src/bg/Overlook.jpg");
+    background-size: cover;
+}
+.main-box2{
+    background-image: url("../../../src/bg/RocketShoot2.jpg");
+    background-size: cover;
+    text-align: right;
+}
+.main-box3{
+    background-image: url("../../../src/bg/Satellite.jpg");
+    background-size: cover;
+    text-align: left;
+}
+.main-box4{
+    background-image: url("../../../src/bg/Spaceport.jpg");
+    background-size: cover;
+    text-align: right;
+}
+.main-box5{
+    background-image: url("../../../src/bg/Space.png");
+    background-size: cover;
+    text-align: center;
+}
+.main-box6{
+    background-image: url("../../../src/bg/Contact.png");
+    background-size: cover;
+    text-align: left;
+}
+
+
+.main-box{
+    color: white;
+}
+.main-box h1{
+    padding-top: 15vh;
+    font-size: 400%;
+    line-height: 200%;
+}
+.main-box h2{
+    font-size: 140%;
+    line-height: 150%;
+}
+
+.main-title{
+    text-align: center;
+    padding-top: 10px;
+    transition-duration: 1000ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+
+/**/
+
+.show1{
+    top: 0;
+    visibility: visible;
+    opacity: 1;
+    padding-top: 0;
+    height: 70vh;
+}
+.btn-box{
+    text-align: center;
+    padding: 50px 0;
+}
+.btn-box-closer{
+    text-align: center;
+    padding: 15px 0;
+}
+.main-btn{
+    width: 120px;
+    height: 40px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 5px 5px;
+    border-radius: 20px;
+    transition-duration: 200ms;
+}
+
+.main-btn:hover{
+    background-color: white;
+    color: cornflowerblue;
+}
+.main-btn a{
+    font-size: 20px;
+}
+
+
+
+/*下拉菜单*/
+.nav-link:hover{
+    background-color: white;
+}
+.nav-link:hover a{
+    color: cornflowerblue;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+    border: none;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 10px;
+    border: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: cornflowerblue;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+
+
+/*正文部分*/
+.text-para{
+    max-width: 30vw; 
+    margin-bottom: 2vh;
+    line-height: 150%;
+    text-align: justify;
+    text-indent:50px;
+}
+
+.text-title{
+    margin-top: -10vh;
+    margin-bottom: 3vh;
+    line-height: 100%;
+    text-align: center;
+}
+
+.text-black{
+    color: #000;
+}
+.text-white{
+    color: white;
+}
+
+.col-2{
+    display:inline;
+}
+
+.bk-intro{
+    margin-top: 95vh;
+    margin-right: 5vh;
+    font-weight:75;
+    float: right;
+    border: 2px solid white;
+}
+.bk-intro-left{
+    margin-top: 95vh;
+    margin-left: 5vh;
+    font-weight:75;
+    float: left;
+    border: 2px solid white;
+}
+
+/**/
+.main-box-left{
+    background-size: cover;
+    text-align: left;
+}
+.main-box-right{
+    background-size: cover;
+    text-align: right;
+}
+.main-box-center{
+    background-size: cover;
+    text-align: center;
+}
+.main-title-left{
+    float: left;
+    margin-left: 8vw;
+}
+.main-title-right{
+    float: right;
+    margin-right: 8vw;
+}
+
+/*card*/
+.card-white{
+    border-radius: 5px;
+    width: 61vw;
+    height: 100vh;
+    margin: 0 auto;
+}
+.card-black{
+    border-radius: 5px;
+    width: 61vw;
+    height: 100vh;
+    margin: 0 auto;
+}
+.pos-left{
+    float:left;
+}
+.pos-right{
+    float: right;
+}
+
+
+.gal{
+    float: right;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 10vw;
+}
+
+.comp{
+    width: 40vw;
+    float: right;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 5vw;
+}
+.comp p{
+    max-width: 40vw;
+}
+.main-title1{
+    padding-top: 20vh;
+}
+
+.card{
+    float: right;
+    text-align: center;
+    margin-right: 0;
+    min-width: 60vw;
+}
