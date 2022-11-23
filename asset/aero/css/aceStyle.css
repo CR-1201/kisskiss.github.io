@@ -1,0 +1,109 @@
+.main-content{
+    width: 100vw;
+    height: 180vw;
+    background-image: url("../../../src/bg/0Tomb.png");
+    background-size: cover;
+}
+.main-title{
+    text-align: center;
+    color: white;
+    padding-top: 20vh;
+    padding-bottom: 50vh;
+    visibility: hidden;
+    transition-duration: 800ms;
+    opacity: 0;
+}
+.show{
+    visibility: visible;
+    padding-top: 25vh;
+    padding-bottom: 45vh;
+    opacity: 1;
+}
+.main-title h1{
+    font-size: 400%;
+    line-height: 200%;
+}
+.ace-list{
+    width: 80vw;
+    padding: 20vh 10vw;
+    color: white;
+    background-color: rgba(100, 100, 100, 0.5);
+}
+.ace{
+    height: 20vh;
+    display: flex;
+    line-height: 160%;
+    padding: 50px 0;
+}
+.ace img{
+    height: 20vh;
+    margin-right: 40px;
+    border-radius: 10vh;
+    cursor: pointer;
+    transition-duration: 200ms;
+}
+.ace img:hover{
+    border-radius: 2vh;
+}
+.intro{
+    padding-top: 20px;
+}
+.detail{
+    position: fixed;
+    top: 100vh;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20vh 10vw;
+    display: flex;
+    color: white;
+    text-align: center;
+    transition-duration: 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+.show-detail{
+    visibility: visible;
+    opacity: 1;
+    left: 0;
+    top: 0;
+}
+.img-detail{
+    width: 30vw;
+}
+.detail img{
+    height: 60vh;
+    border-radius: 5vh;
+}
+.detail h2{
+    font-size: 2.5rem;
+    line-height: 200%;
+}
+.detail h3{
+    font-size: 1.5rem;
+    line-height: 250%;
+}
+.detail li{
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 200%;
+}
+
+.note{
+    width: 40vw;
+}
+.img-detail{
+    opacity: 0;
+    margin-top: 20vh;
+    transition-duration: 400ms;
+}
+.note{
+    opacity: 0;
+    margin-top: 20vh;
+    transition-duration: 400ms;
+}
+.show-img-note{
+    opacity: 1;
+    margin-top: 0;
+}
