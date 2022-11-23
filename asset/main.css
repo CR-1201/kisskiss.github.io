@@ -1,0 +1,104 @@
+/**
+基础设定
+ */
+html {
+    overflow-y: scroll;
+}
+
+:root {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+:root body {
+    position: absolute;
+}
+
+body {
+    width: 100vw;
+    overflow: hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+ul li{
+    list-style-type: none;
+}
+
+
+/**
+导航栏
+ */
+.top-nav {
+    overflow: hidden;
+}
+.top-left-nav{
+    padding: 10px 40px;
+    float: left;
+    width: 80vw;
+}
+.top-right-nav{
+    width: 20vw;
+    float: right;
+}
+
+/**
+左上导航栏
+ */
+.top-left-nav{
+    display: flex;
+}
+.nav-link{
+    width: 105px;
+    height: min-content;
+    margin: 20px 10px;
+    padding: 5px 0;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    background-color: transparent;
+    transition-duration: 200ms;
+    font-size: 20px;
+    color: white;
+}
+.nav-link:hover{
+    background-color: white;
+}
+.nav-link:hover a{
+    color: cornflowerblue;
+}
+
+.main-page{
+    float: left;
+    width: 70%;
+}
+
+.sidebar{
+    float: right;
+    width: 30%;
+}
+
+.on-this-page{
+    color: dodgerblue;
+    background-color: lightcyan;
+}
+
+.footer-bottom{
+    width: 100%;
+    height: 5vh;
+    background-image: url("../src/bg/Lighthouse.png");
+    background-size: cover;
+}
+.copyright{
+    height: 5vh;
+    border-top: 1px solid white;
+    color: white;
+    text-align: center;
+}
